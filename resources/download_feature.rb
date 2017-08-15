@@ -36,7 +36,7 @@ actions :download
 
 
 #<> @attribute name Specifies the name of the asset to be downloaded.
-attribute :name, :kind_of => String, :default => nil
+attribute :name, :kind_of => String, :default => ''
 
 #<> @attribute directory Specifies which local directory path utilities are downloaded to when using the :download action.
 attribute :directory, :kind_of => String, :default => nil
